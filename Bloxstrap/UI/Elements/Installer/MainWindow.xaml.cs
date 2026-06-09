@@ -4,14 +4,14 @@ using Wpf.Ui.Mvvm.Contracts;
 using System.ComponentModel;
 using System.Windows;
 
-using Bloxstrap.UI.ViewModels.Installer;
-using Bloxstrap.UI.Elements.Installer.Pages;
-using Bloxstrap.UI.Elements.Base;
+using yareustrap.UI.ViewModels.Installer;
+using yareustrap.UI.Elements.Installer.Pages;
+using yareustrap.UI.Elements.Base;
 using System.Windows.Media.Animation;
 using System.Reflection.Metadata.Ecma335;
-using Bloxstrap.Resources;
+using yareustrap.Resources;
 
-namespace Bloxstrap.UI.Elements.Installer
+namespace yareustrap.UI.Elements.Installer
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

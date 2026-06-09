@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Bloxstrap.UI.ViewModels.Settings;
+using yareustrap.UI.ViewModels.Settings;
 
-namespace Bloxstrap.UI.Elements.Settings.Pages
+namespace yareustrap.UI.Elements.Settings.Pages
 {
     /// <summary>
-    /// Interaction logic for BloxstrapPage.xaml
+    /// Interaction logic for yareustrapPage.xaml
     /// </summary>
-    public partial class BloxstrapPage
+    public partial class yareustrapPage
     {
-        public BloxstrapPage()
+        public yareustrapPage()
         {
-            DataContext = new BloxstrapViewModel();
+            DataContext = new yareustrapViewModel();
             InitializeComponent();
         }
     }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Bloxstrap.Utility
+namespace yareustrap.Utility
 {
     internal static class Filesystem
     {
@@ -13,7 +13,7 @@ namespace Bloxstrap.Utility
         {
             foreach (var drive in DriveInfo.GetDrives())
             {
-                // https://github.com/bloxstraplabs/bloxstrap/issues/1648#issuecomment-2192571030
+                // https://github.com/yareustraplabs/yareustrap/issues/1648#issuecomment-2192571030
                 if (path.ToUpperInvariant().StartsWith(drive.Name))
                     return drive.AvailableFreeSpace;
             }

@@ -38,7 +38,7 @@
 				"FontFamily": "FontFamily"
 			}
 		},
-		"BloxstrapCustomBootstrapper": {
+		"yareustrapCustomBootstrapper": {
 			"SuperClass": "Control",
 			"IsCreatable": true,
 			"Attributes": {

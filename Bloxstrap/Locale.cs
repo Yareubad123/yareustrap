@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace Bloxstrap
+namespace yareustrap
 {
     internal static class Locale
     {

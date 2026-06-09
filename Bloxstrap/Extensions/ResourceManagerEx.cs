@@ -1,6 +1,6 @@
 ﻿using System.Resources;
 
-namespace Bloxstrap.Extensions
+namespace yareustrap.Extensions
 {
     static class ResourceManagerEx
     {

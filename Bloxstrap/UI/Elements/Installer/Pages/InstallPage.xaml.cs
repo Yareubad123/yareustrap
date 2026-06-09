@@ -1,9 +1,9 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-using Bloxstrap.UI.ViewModels.Installer;
+using yareustrap.UI.ViewModels.Installer;
 
-namespace Bloxstrap.UI.Elements.Installer.Pages
+namespace yareustrap.UI.Elements.Installer.Pages
 {
     /// <summary>
     /// Interaction logic for WelcomePage.xaml

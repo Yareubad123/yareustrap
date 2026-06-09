@@ -1,5 +1,5 @@
-﻿using Bloxstrap.UI.Elements.Bootstrapper.Base;
-using Bloxstrap.UI.ViewModels.Bootstrapper;
+﻿using yareustrap.UI.Elements.Bootstrapper.Base;
+using yareustrap.UI.ViewModels.Bootstrapper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +19,7 @@ using System.Windows.Shapes;
 using System.Windows.Shell;
 using System.Windows.Threading;
 
-namespace Bloxstrap.UI.Elements.Bootstrapper
+namespace yareustrap.UI.Elements.Bootstrapper
 {
     /// <summary>
     /// Interaction logic for FluentDialog.xaml
@@ -28,7 +28,7 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
     {
         private readonly FluentDialogViewModel _viewModel;
 
-        public Bloxstrap.Bootstrapper? Bootstrapper { get; set; }
+        public yareustrap.Bootstrapper? Bootstrapper { get; set; }
 
         private bool _isClosing;
 

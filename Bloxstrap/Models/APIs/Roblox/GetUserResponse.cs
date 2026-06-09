@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.RobloxApi
+﻿namespace yareustrap.Models.RobloxApi
 {
     /// <summary>
     /// Roblox.Users.Api.GetUserResponse

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
 
-namespace Bloxstrap.Extensions
+namespace yareustrap.Extensions
 {
     internal static class TEnumEx
     {

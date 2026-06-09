@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap
+﻿namespace yareustrap
 {
     static class Paths
     {

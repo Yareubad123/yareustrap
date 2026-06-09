@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap
+﻿namespace yareustrap
 {
     public static class GlobalCache
     {

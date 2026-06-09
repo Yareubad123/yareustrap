@@ -1,11 +1,11 @@
 ﻿using System.Web;
 using System.Windows;
 using System.Windows.Input;
-using Bloxstrap.AppData;
-using Bloxstrap.Models.APIs;
+using yareustrap.AppData;
+using yareustrap.Models.APIs;
 using CommunityToolkit.Mvvm.Input;
 
-namespace Bloxstrap.Models.Entities
+namespace yareustrap.Models.Entities
 {
     public class ActivityData
     {
@@ -50,7 +50,7 @@ namespace Bloxstrap.Models.Entities
 
         public DateTime? TimeLeft { get; set; }
 
-        // everything below here is optional strictly for bloxstraprpc, discord rich presence, or game history
+        // everything below here is optional strictly for yareustraprpc, discord rich presence, or game history
 
         /// <summary>
         /// This is intended only for other people to use, i.e. context menu invite link, rich presence joining

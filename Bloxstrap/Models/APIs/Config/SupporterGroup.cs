@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.APIs.Config
+﻿namespace yareustrap.Models.APIs.Config
 {
     public class SupporterGroup
     {

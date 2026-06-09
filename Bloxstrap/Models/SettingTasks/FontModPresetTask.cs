@@ -1,6 +1,6 @@
-﻿using Bloxstrap.Models.SettingTasks.Base;
+﻿using yareustrap.Models.SettingTasks.Base;
 
-namespace Bloxstrap.Models.SettingTasks
+namespace yareustrap.Models.SettingTasks
 {
     public class FontModPresetTask : StringBaseTask
     {

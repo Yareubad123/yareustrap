@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Extensions
+﻿namespace yareustrap.Extensions
 {
     static class ServerTypeEx
     {

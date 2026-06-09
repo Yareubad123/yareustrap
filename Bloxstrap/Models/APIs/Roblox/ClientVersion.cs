@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.APIs.Roblox
+﻿namespace yareustrap.Models.APIs.Roblox
 {
     public class ClientVersion
     {

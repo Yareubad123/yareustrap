@@ -13,9 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-using Bloxstrap.UI.ViewModels.Settings;
+using yareustrap.UI.ViewModels.Settings;
 
-namespace Bloxstrap.UI.Elements.Settings.Pages
+namespace yareustrap.UI.Elements.Settings.Pages
 {
     /// <summary>
     /// Interaction logic for BehaviourPage.xaml

@@ -1,9 +1,9 @@
 ﻿using System.Windows;
 
-using Bloxstrap.UI.Elements.Bootstrapper;
-using Bloxstrap.UI.Elements.Dialogs;
+using yareustrap.UI.Elements.Bootstrapper;
+using yareustrap.UI.Elements.Dialogs;
 
-namespace Bloxstrap.UI
+namespace yareustrap.UI
 {
     static class Frontend
     {
@@ -24,7 +24,7 @@ namespace Bloxstrap.UI
 
             string info = String.Format(
                 Strings.Dialog_PlayerError_FailedLaunch,
-                $"https://bloxstraplabs.com/wiki/help/roblox-crashes-or-does-not-launch/"
+                $"https://yareustraplabs.com/wiki/help/roblox-crashes-or-does-not-launch/"
             );
 
             ShowMessageBox(info, MessageBoxImage.Error);
@@ -72,7 +72,7 @@ namespace Bloxstrap.UI
                 App.Logger.WriteException(LOG_IDENT, ex);
 
                 if (!App.LaunchSettings.QuietFlag.Active)
-                    ShowMessageBox(string.Format(Strings.CustomTheme_Errors_SetupFailed, ex.Message, "Bloxstrap"), MessageBoxImage.Error); // NOTE: Bloxstrap is the theme name
+                    ShowMessageBox(string.Format(Strings.CustomTheme_Errors_SetupFailed, ex.Message, "yareustrap"), MessageBoxImage.Error); // NOTE: yareustrap is the theme name
 
                 return GetBootstrapperDialog(BootstrapperStyle.FluentDialog);
             }
@@ -109,7 +109,7 @@ namespace Bloxstrap.UI
         {
             var notifyIcon = new System.Windows.Forms.NotifyIcon
             {
-                Icon = Properties.Resources.IconBloxstrap,
+                Icon = Properties.Resources.Iconyareustrap,
                 Text = App.ProjectName,
                 Visible = true
             };

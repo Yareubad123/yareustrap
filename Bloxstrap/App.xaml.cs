@@ -6,7 +6,7 @@ using System.Windows.Threading;
 
 using Microsoft.Win32;
 
-namespace Bloxstrap
+namespace yareustrap
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -14,15 +14,15 @@ namespace Bloxstrap
     public partial class App : Application
     {
 #if QA_BUILD
-        public const string ProjectName = "Bloxstrap-QA";
+        public const string ProjectName = "yareustrap-QA";
 #else
-        public const string ProjectName = "Bloxstrap";
+        public const string ProjectName = "yareustrap";
 #endif
-        public const string ProjectOwner = "Bloxstrap";
-        public const string ProjectRepository = "bloxstraplabs/bloxstrap";
-        public const string ProjectDownloadLink = "https://bloxstraplabs.com";
-        public const string ProjectHelpLink = "https://bloxstraplabs.com/wiki/help/";
-        public const string ProjectSupportLink = "https://github.com/bloxstraplabs/bloxstrap/issues/new";
+        public const string ProjectOwner = "yareustrap";
+        public const string ProjectRepository = "yareustraplabs/yareustrap";
+        public const string ProjectDownloadLink = "https://yareustraplabs.com";
+        public const string ProjectHelpLink = "https://yareustraplabs.com/wiki/help/";
+        public const string ProjectSupportLink = "https://github.com/yareustraplabs/yareustrap/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta";
         public const string RobloxStudioAppName = "RobloxStudioBeta";
@@ -77,7 +77,7 @@ namespace Bloxstrap
                 if (_webUrl != null)
                     return _webUrl;
 
-                string url = ConstructBloxstrapWebUrl();
+                string url = ConstructyareustrapWebUrl();
                 if (Settings.Loaded) // only cache if settings are done loading
                     _webUrl = url;
                 return url;
@@ -144,14 +144,14 @@ namespace Bloxstrap
             Terminate(ErrorCode.ERROR_INSTALL_FAILURE);
         }
 
-        public static string ConstructBloxstrapWebUrl()
+        public static string ConstructyareustrapWebUrl()
         {
             // dont let user switch web environment if debug mode is not on
             if (Settings.Prop.WebEnvironment == WebEnvironment.Production || !Settings.Prop.DeveloperMode)
-                return "services.bloxstraplabs.com";
+                return "services.yareustraplabs.com";
 
             string? sub = Settings.Prop.WebEnvironment.GetDescription();
-            return $"services-{sub}.bloxstraplabs.com";
+            return $"services-{sub}.yareustraplabs.com";
         }
 
         public static bool CanSendLogs()

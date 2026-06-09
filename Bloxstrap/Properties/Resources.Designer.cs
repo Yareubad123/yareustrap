@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Bloxstrap.Properties {
+namespace yareustrap.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Bloxstrap.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Bloxstrap.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("yareustrap.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -103,11 +103,11 @@ namespace Bloxstrap.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IconBloxstrap
+        internal static System.Drawing.Icon Iconyareustrap
         {
             get
             {
-                object obj = ResourceManager.GetObject("IconBloxstrap", resourceCulture);
+                object obj = ResourceManager.GetObject("Iconyareustrap", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -199,11 +199,11 @@ namespace Bloxstrap.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon IconBloxstrapClassic
+        internal static System.Drawing.Icon IconyareustrapClassic
         {
             get
             {
-                object obj = ResourceManager.GetObject("IconBloxstrapClassic", resourceCulture);
+                object obj = ResourceManager.GetObject("IconyareustrapClassic", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

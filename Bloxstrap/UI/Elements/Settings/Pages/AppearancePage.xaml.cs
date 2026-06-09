@@ -1,8 +1,8 @@
-﻿using Bloxstrap.UI.ViewModels.Settings;
+﻿using yareustrap.UI.ViewModels.Settings;
 
 using System.Windows.Controls;
 
-namespace Bloxstrap.UI.Elements.Settings.Pages
+namespace yareustrap.UI.Elements.Settings.Pages
 {
     /// <summary>
     /// Interaction logic for AppearancePage.xaml

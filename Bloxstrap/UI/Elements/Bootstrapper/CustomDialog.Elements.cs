@@ -11,9 +11,9 @@ using System.Xml.Linq;
 
 using Wpf.Ui.Markup;
 
-using Bloxstrap.UI.Elements.Controls;
+using yareustrap.UI.Elements.Controls;
 
-namespace Bloxstrap.UI.Elements.Bootstrapper
+namespace yareustrap.UI.Elements.Bootstrapper
 {
     public partial class CustomDialog
     {
@@ -361,7 +361,7 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
                 uiElement.FontFamily = new System.Windows.Media.FontFamily(fontFamily);
         }
 
-        private static UIElement HandleXmlElement_BloxstrapCustomBootstrapper(CustomDialog dialog, XElement xmlElement)
+        private static UIElement HandleXmlElement_yareustrapCustomBootstrapper(CustomDialog dialog, XElement xmlElement)
         {
             xmlElement.SetAttributeValue("Visibility", "Collapsed"); // don't show the bootstrapper yet!!!
             xmlElement.SetAttributeValue("IsEnabled", "True");
@@ -401,7 +401,7 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
             dialog.Margin = new Thickness(0, 0, 0, 0);
             dialog.Padding = new Thickness(0, 0, 0, 0);
 
-            string? title = xmlElement.Attribute("Title")?.Value?.ToString() ?? "Bloxstrap";
+            string? title = xmlElement.Attribute("Title")?.Value?.ToString() ?? "yareustrap";
             dialog.Title = title;
 
             bool ignoreTitleBarInset = ParseXmlAttribute<bool>(xmlElement, "IgnoreTitleBarInset", false);
@@ -414,9 +414,9 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
             return new DummyFrameworkElement();
         }
 
-        private static UIElement HandleXmlElement_BloxstrapCustomBootstrapper_Fake(CustomDialog dialog, XElement xmlElement)
+        private static UIElement HandleXmlElement_yareustrapCustomBootstrapper_Fake(CustomDialog dialog, XElement xmlElement)
         {
-            // this only exists to error out the theme if someone tries to use two BloxstrapCustomBootstrappers
+            // this only exists to error out the theme if someone tries to use two yareustrapCustomBootstrappers
             throw new CustomThemeException("CustomTheme.Errors.ElementInvalidChild", xmlElement.Parent!.Name, xmlElement.Name);
         }
 
@@ -443,7 +443,7 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
             dialog.RootTitleBar.ShowMinimize = ParseXmlAttribute<bool>(xmlElement, "ShowMinimize", true);
             dialog.RootTitleBar.ShowClose = ParseXmlAttribute<bool>(xmlElement, "ShowClose", true);
 
-            string? title = xmlElement.Attribute("Title")?.Value?.ToString() ?? "Bloxstrap";
+            string? title = xmlElement.Attribute("Title")?.Value?.ToString() ?? "yareustrap";
             dialog.RootTitleBar.Title = title;
 
             return new DummyFrameworkElement(); // dont add anything

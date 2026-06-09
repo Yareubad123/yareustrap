@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.AppData
+﻿namespace yareustrap.AppData
 {
     internal interface IAppData
     {

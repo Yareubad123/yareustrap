@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.BloxstrapRPC
+﻿namespace yareustrap.Models.yareustrapRPC
 {
     class RichPresence
     {

@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models
+﻿namespace yareustrap.Models
 {
     public class FontFamily
     {

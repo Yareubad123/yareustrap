@@ -1,8 +1,8 @@
 ﻿using Microsoft.Win32;
 using System.Windows;
-using Bloxstrap.Resources;
+using yareustrap.Resources;
 
-namespace Bloxstrap.UI.Elements.Dialogs
+namespace yareustrap.UI.Elements.Dialogs
 {
     /// <summary>
     /// Interaction logic for AddFastFlagDialog.xaml

@@ -1,9 +1,9 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-using Bloxstrap.UI.Elements.Bootstrapper.Base;
+using yareustrap.UI.Elements.Bootstrapper.Base;
 
-namespace Bloxstrap.UI.Elements.Bootstrapper
+namespace yareustrap.UI.Elements.Bootstrapper
 {
     // basically just the modern dialog
 

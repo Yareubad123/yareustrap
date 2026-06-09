@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using Bloxstrap.Resources;
+using yareustrap.Resources;
 
-namespace Bloxstrap.Utility
+namespace yareustrap.Utility
 {
     internal static class Shortcut
     {

@@ -1,6 +1,6 @@
-﻿using Bloxstrap.RobloxInterfaces;
+﻿using yareustrap.RobloxInterfaces;
 
-namespace Bloxstrap.Models.Manifest
+namespace yareustrap.Models.Manifest
 {
     public class FileManifest : List<ManifestFile>
     {

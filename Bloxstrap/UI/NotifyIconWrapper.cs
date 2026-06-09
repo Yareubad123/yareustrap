@@ -1,8 +1,8 @@
-﻿using Bloxstrap.Integrations;
-using Bloxstrap.UI.Elements.About;
-using Bloxstrap.UI.Elements.ContextMenu;
+﻿using yareustrap.Integrations;
+using yareustrap.UI.Elements.About;
+using yareustrap.UI.Elements.ContextMenu;
 
-namespace Bloxstrap.UI
+namespace yareustrap.UI
 {
     public class NotifyIconWrapper : IDisposable
     {
@@ -28,7 +28,7 @@ namespace Bloxstrap.UI
 
             _notifyIcon = new(new System.ComponentModel.Container())
             {
-                Icon = Properties.Resources.IconBloxstrap,
+                Icon = Properties.Resources.Iconyareustrap,
                 Text = App.ProjectName,
                 Visible = true
             };

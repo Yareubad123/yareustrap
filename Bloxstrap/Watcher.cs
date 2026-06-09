@@ -1,8 +1,8 @@
-﻿using Bloxstrap.AppData;
-using Bloxstrap.Integrations;
-using Bloxstrap.Models;
+﻿using yareustrap.AppData;
+using yareustrap.Integrations;
+using yareustrap.Models;
 
-namespace Bloxstrap
+namespace yareustrap
 {
     public class Watcher : IDisposable
     {

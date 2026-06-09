@@ -1,7 +1,7 @@
-﻿using Bloxstrap.Models.Entities;
-using Bloxstrap.Models.SettingTasks.Base;
+﻿using yareustrap.Models.Entities;
+using yareustrap.Models.SettingTasks.Base;
 
-namespace Bloxstrap.Models.SettingTasks
+namespace yareustrap.Models.SettingTasks
 {
     public class EnumModPresetTask<T> : EnumBaseTask<T> where T : struct, Enum
     {

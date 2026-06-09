@@ -2,11 +2,11 @@
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 
-using Bloxstrap.Resources;
+using yareustrap.Resources;
 
 using Microsoft.Win32;
 
-namespace Bloxstrap.UI.ViewModels.Installer
+namespace yareustrap.UI.ViewModels.Installer
 {
     public class CompletionViewModel
     {

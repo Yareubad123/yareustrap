@@ -1,11 +1,11 @@
-﻿using Bloxstrap.Extensions;
+﻿using yareustrap.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bloxstrap.Exceptions
+namespace yareustrap.Exceptions
 {
     internal class CustomThemeException : Exception
     {

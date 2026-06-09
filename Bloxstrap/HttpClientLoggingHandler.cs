@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap
+﻿namespace yareustrap
 {
     internal class HttpClientLoggingHandler : MessageProcessingHandler
     {

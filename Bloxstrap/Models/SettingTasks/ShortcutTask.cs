@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.SettingTasks
+﻿namespace yareustrap.Models.SettingTasks
 {
     public class ShortcutTask : BoolBaseTask
     {

@@ -1,9 +1,9 @@
-﻿namespace Bloxstrap.Enums
+﻿namespace yareustrap.Enums
 {
     public enum BootstrapperIcon
     {
-        [EnumName(StaticName = "Bloxstrap")]
-        IconBloxstrap,
+        [EnumName(StaticName = "yareustrap")]
+        Iconyareustrap,
         [EnumName(StaticName = "2008")]
         Icon2008,
         [EnumName(StaticName = "2011")]
@@ -19,6 +19,6 @@
         [EnumName(FromTranslation = "Common.Custom")]
         IconCustom,
         [EnumName(FromTranslation = "Enums.BootstrapperStyle.ClassicFluentDialog")]
-        IconBloxstrapClassic
+        IconyareustrapClassic
     }
 }

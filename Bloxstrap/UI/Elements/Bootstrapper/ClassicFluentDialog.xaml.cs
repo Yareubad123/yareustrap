@@ -2,10 +2,10 @@
 using System.Windows.Forms;
 using System.Windows.Shell;
 
-using Bloxstrap.UI.ViewModels.Bootstrapper;
-using Bloxstrap.UI.Elements.Bootstrapper.Base;
+using yareustrap.UI.ViewModels.Bootstrapper;
+using yareustrap.UI.Elements.Bootstrapper.Base;
 
-namespace Bloxstrap.UI.Elements.Bootstrapper
+namespace yareustrap.UI.Elements.Bootstrapper
 {
     /// <summary>
     /// Interaction logic for ClassicFluentDialog.xaml
@@ -14,7 +14,7 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
     {
         private readonly BootstrapperDialogViewModel _viewModel;
 
-        public Bloxstrap.Bootstrapper? Bootstrapper { get; set; }
+        public yareustrap.Bootstrapper? Bootstrapper { get; set; }
 
         private bool _isClosing;
 
