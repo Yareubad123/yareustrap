@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Publish App
-      run: dotnet publish Bloxstrap/Bloxstrap.csproj --configuration Release --runtime win-x64 /p:PublishProfile=Publish-x64 --output ./build
+      run: dotnet publish Yareustrap/Yareustrap.csproj --configuration Release --runtime win-x64 /p:PublishProfile=Publish-x64 --output ./build
 
     - name: Upload Finished EXE
       uses: actions/upload-artifact@v4
