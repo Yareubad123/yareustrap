@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>True</UseWindowsForms>
-    <ApplicationIcon>yareustrap.ico</ApplicationIcon>
+    <ApplicationIcon>bloxstrap.ico</ApplicationIcon>
     <Version>2.11.3</Version>
     <FileVersion>2.11.3</FileVersion>
     <ApplicationManifest>app.manifest</ApplicationManifest>
